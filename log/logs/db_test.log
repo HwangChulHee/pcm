@@ -1,0 +1,124 @@
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 20:51:26]
+◇ 현재 사용자 IP : 1.220.248.206
+
+----------------------------------------------------------------
+【정보 로그】 : 
+
+『로그 설명』 : 에러 저옵
+『로그 변수들』 : {
+	e = PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'debug.members' doesn't exist in /var/www/html/debug/db_test.php:7
+Stack trace:
+#0 /var/www/html/debug/db_test.php(7): PDOStatement->execute()
+#1 {main}
+}
+----------------------------------------------------------------
+
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 20:56:50]
+◇ 현재 사용자 IP : 1.220.248.206
+
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 20:58:31]
+◇ 현재 사용자 IP : 1.220.248.206
+
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 21:01:54]
+◇ 현재 사용자 IP : 1.220.248.206
+
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 21:03:02]
+◇ 현재 사용자 IP : 1.220.248.206
+
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 21:03:58]
+◇ 현재 사용자 IP : 1.220.248.206
+
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 21:04:33]
+◇ 현재 사용자 IP : 1.220.248.206
+
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 21:07:12]
+◇ 현재 사용자 IP : 1.220.248.206
+
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 21:08:15]
+◇ 현재 사용자 IP : 1.220.248.206
+
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 21:09:41]
+◇ 현재 사용자 IP : 1.220.248.206
+
+----------------------------------------------------------------
+【정보 로그】 : 
+
+『로그 설명』 : 에러
+『로그 변수들』 : {
+	e = PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS type,
+                                object 
+                           ' at line 5 in /var/www/html/debug/db_test.php:29
+Stack trace:
+#0 /var/www/html/debug/db_test.php(29): PDOStatement->execute()
+#1 {main}
+}
+----------------------------------------------------------------
+
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 21:12:40]
+◇ 현재 사용자 IP : 1.220.248.206
+
+----------------------------------------------------------------
+【정보 로그】 : 
+
+『로그 설명』 : 에러
+『로그 변수들』 : {
+	e = PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ELSE 'not'
+                                    END
+                           ' at line 4 in /var/www/html/debug/db_test.php:30
+Stack trace:
+#0 /var/www/html/debug/db_test.php(30): PDOStatement->execute()
+#1 {main}
+}
+----------------------------------------------------------------
+
+================================================================
+◇ 현재 파일명 : /debug/db_test.php
+◇ 현재 파일 기능 설명 : db_test
+◇ 현재 시간 : [22.12.12 21:12:59]
+◇ 현재 사용자 IP : 1.220.248.206
+
+----------------------------------------------------------------
+【정보 로그】 : 
+
+『로그 설명』 : 에러
+『로그 변수들』 : {
+	e = PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/debug/db_test.php:31
+Stack trace:
+#0 /var/www/html/debug/db_test.php(31): PDOStatement->execute()
+#1 {main}
+}
+----------------------------------------------------------------
+
